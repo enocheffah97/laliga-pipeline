@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# macOS junk
+.DS_Store
+
+# Secrets (API keys, passwords)
+.env
+
+# Downloaded data (the pipeline re-downloads it)
+data/
